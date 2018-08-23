@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
+import { ThrottleClickDirective } from './directives/throttle-click.directive';
 
 @NgModule({
   imports: [],
-  exports: [],
+  declarations: [
+    ThrottleClickDirective,
+  ],
+  exports: [
+    ThrottleClickDirective,
+  ],
 })
 export class NgUtilsLibModule { }
