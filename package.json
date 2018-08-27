@@ -10,9 +10,8 @@
     "lint": "ng lint",
     "build_lib": "ng build --prod ng-utils-lib",
     "npm_pack": "cd dist/ng-utils-lib && npm pack",
-    "package": "npm run build_lib && npm run npm_pack && npm run copy:readme",
-    "copy:readme": "cp README.md dist/ng-utils-lib/",
-    "publish": "cd dist/ng-utils-lib npm publish --access public"
+    "package": "npm run build_lib && npm run copy:readme && npm run npm_pack",
+    "copy:readme": "cp README.md dist/ng-utils-lib/"
   },
   "private": true,
   "dependencies": {
