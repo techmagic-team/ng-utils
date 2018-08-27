@@ -1,8 +1,19 @@
 {
-  "name": "ng-utils",
+  "name": "@techmagic/ng-utils",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "description": "Collection of utils for Angular application",
+  "keywords": [
+    "angular",
+    "angular directives"
+  ],
+  "author": "Roman Yavoriv",
+  "email": "roman.yavoriv@techmagic.co",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techmagic-team/ng-utils"
   }
 }
