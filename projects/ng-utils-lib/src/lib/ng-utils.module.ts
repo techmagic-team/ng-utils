@@ -10,4 +10,4 @@ import { ThrottleClickDirective } from './directives/throttle-click.directive';
     ThrottleClickDirective,
   ],
 })
-export class NgUtilsLibModule { }
+export class NgUtilsModule { }

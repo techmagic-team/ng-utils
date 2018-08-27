@@ -1,6 +1,6 @@
 /*
- * Public API Surface of ng-utils-lib
+ * Public API Surface of ng-utils
  */
 
-export * from './lib/ng-utils-lib.module';
+export * from './lib/ng-utils.module';
 export * from './lib/directives/throttle-click.directive';

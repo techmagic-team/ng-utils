@@ -4,4 +4,8 @@ import { Component } from '@angular/core';
   selector: 'ngu-root',
   templateUrl: './app.component.html',
 })
-export class AppComponent {}
+export class AppComponent {
+  onClick(): void {
+    console.log('Test Click');
+  }
+}
