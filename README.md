@@ -10,7 +10,7 @@ Collection of utils for Angular application
 ## Install
 
 1. `npm install --save @techmagic/ng-utils`
-2. `import { NgUtilsModule } from 'ng-utils-lib'`
+2. `import { NgUtilsModule } from '@techmagic/ng-utils-lib'`
 3. Add NgUtilsModule to your `imports` array: `imports: [  NgUtilsModule ]`
 
 ## Utils
