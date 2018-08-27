@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test:precommit": "ng test ng-utils-lib --watch=false",
+    "test:dev": "ng test ng-utils-lib --code-coverage",
     "lint": "ng lint",
     "build_lib": "ng build --prod ng-utils-lib",
     "npm_pack": "cd dist/ng-utils-lib && npm pack",
@@ -53,6 +54,7 @@
     "typescript": "~2.7.2"
   },
   "pre-commit": [
-    "lint"
+    "lint",
+    "test:precommit"
   ]
 }
