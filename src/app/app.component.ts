@@ -5,7 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  onClick(): void {
-    console.log('Test Click');
+  onThrottleClick($event: MouseEvent): void {
+    console.log('Throttle Click', $event);
+  }
+
+  onClickOutside($event: MouseEvent): void {
+    console.log('Click Outside', $event);
   }
 }

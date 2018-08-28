@@ -6,6 +6,7 @@ Collection of utils for Angular application
 - [Utils](#utils)
   - [Directives](#directives)
     - [nguThrottleClick](#nguThrottleClick)
+    - [nguClickOutside](#nguClickOutside)
 
 ## Install
 
@@ -30,6 +31,17 @@ Property | Type | Default value | Description
 nguThrottleClick | function | - | Method to handle click
 throttleTime | number | 1000 | Time to throttle click event
 
+### nguClickOutside
+
+Listen for click outside the target element
+
+```
+<button (nguClickOutside)="onClick()">Click</button>
+```
+
+Property | Type | Default value | Description
+-------- | ---- | ----------- | -------------
+nguClickOutside | function | - | Method to handle click
 
 
 
