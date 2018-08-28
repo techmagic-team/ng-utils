@@ -21,7 +21,7 @@ export class ThrottleClickDirective implements OnInit, OnDestroy {
     event.preventDefault();
     event.stopPropagation();
 
-    this.clicks.next();
+    this.clicks.next(event);
   }
 
   ngOnInit() {
