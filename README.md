@@ -31,7 +31,7 @@ Property | Type | Default value | Description
 nguThrottleClick | function | - | Method to handle click
 throttleTime | number | 1000 | Time to throttle click event
 
-### nguClickOutside
+#### nguClickOutside
 
 Listen for click outside the target element
 
